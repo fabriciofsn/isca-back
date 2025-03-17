@@ -1,0 +1,15 @@
+@BaseUrl = http://127.0.0.1:3000
+
+
+##Enviar email
+
+POST {{BaseUrl}}/email
+Content-Type: application/json
+
+{
+  "email": "teste3@gmail.com"
+}
+################################
+
+#Find email
+GET {{BaseUrl}}/email
